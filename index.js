@@ -1,6 +1,7 @@
 const express = require("express")
 const app = express()
 const port = 3000
+const { sql } = require("@vercel/postgres")
 
 const jsFolder = __dirname + '/frontend/js'
 const fs = require('fs')
